@@ -1,38 +1,36 @@
-//fonts
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-
+*{
+  background-color: #e0e0e0;
+}
 body {
   box-sizing: border-box;
-  background-color: black;
-  margin: 0;
-  padding: 0;
+  height: 100vh;
 }
 
 .quoteContainer {
-  width: 85%;
-  height: 100vmin;
+  max-width: 80%;
+  height: 90vmin;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
+  margin: auto;
+  min-height: 200px;
 }
 
 #quote {
-  font-size: 6vmin;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  margin-bottom: 0;
+  font-size: 8vmin;
+  font-weight: 400;
 }
-
-#author {
-  align-self: flex-end;
-  margin-right: 5em;
+#author{
   font-size: 5vmin;
 }
-#newQuote{
-  font-size: 1em;
-  padding:1em;
-  width: 5em;
-  min-width: 1em;
-  align-self: flex-end;
+
+#newQuote {
+color:black;
+letter-spacing: 1vmin;
+font-weight: bold;
+width: 30vmin;
+height:6vmin;
+min-width: 14em;
+min-height: 4em;
+align-self: center;
 }
