@@ -28,9 +28,16 @@ body {
 color:black;
 letter-spacing: 1vmin;
 font-weight: bold;
-width: 30vmin;
-height:6vmin;
+width: 40vmin;
+height:8vmin;
 min-width: 14em;
 min-height: 4em;
 align-self: center;
+font-size: auto;
+}
+@media screen and (max-device-width: 480px) {
+  #newQuote{
+    width:20em;
+    height:10em;
+  }
 }
