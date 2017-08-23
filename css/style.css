@@ -3,16 +3,18 @@
 }
 body {
   box-sizing: border-box;
-  height: 100vh;
+  overflow: hidden;
 }
 
 .quoteContainer {
   max-width: 80%;
+  max-height: 80%;
+  width: 60em;
   height: 90vmin;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: auto;
+  margin: 2em auto;
   min-height: 200px;
   padding-top: 1.5em;
 }
@@ -24,15 +26,22 @@ body {
 #author{
   font-size: 5vmin;
 }
+.buttons{
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 30em;
+}
 
-#newQuote {
+
+#button{
 color:black;
-letter-spacing: 1vmin;
+letter-spacing: .2em;
 font-weight: bold;
+font-size: 2em;
 width: 40vmin;
 height:8vmin;
 min-width: 10em;
 min-height: 2em;
-align-self: center;
-font-size: 2em;
 }
